@@ -1,0 +1,16 @@
+QFrame {
+  background: palette(window);
+  border: none;
+}
+
+# Also applies scrollbar fixes from Fusion
+QScrollBar {
+    background: palette(dark);
+}
+QScrollBar::handle {
+    background: palette(highlight);
+    border-radius: 4px;
+}
+QScrollBar::add-line, QScrollBar::sub-line {
+    background: palette(window);
+}
